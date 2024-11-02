@@ -1,15 +1,18 @@
 import Bell from "../assets/svgs/bell";
+import Cube from "../assets/svgs/cube";
+import Forms from "../assets/svgs/forms";
+import Home from "../assets/svgs/home";
 import Tab from "../elements/Tab";
 
 const Tabs = () => {
   const tabElements = [
     {
       name: "Home",
-      Icon: <Bell />,
+      Icon: <Home />,
     },
     {
       name: "Interfaces",
-      Icon: <Bell />,
+      Icon: <Cube />,
     },
     {
       name: "Components",
@@ -21,7 +24,7 @@ const Tabs = () => {
     },
     {
       name: "Forms",
-      Icon: <Bell />,
+      Icon: <Forms />,
     },
     {
       name: "Gallery",
